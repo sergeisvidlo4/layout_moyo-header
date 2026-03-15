@@ -76,29 +76,3 @@ body {
   color: var(--blue-color);
 }
 
-
-
-
-
-.nav__link:hover::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 20px;
-  height: 4px;
-  background-color: var(--blue-color);
-  border-radius: 8px;
-}
-
-.is-active:hover::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 4px;
-  background-color: var(--blue-color);
-  border-radius: 8px;
-}
-
